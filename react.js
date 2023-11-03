@@ -1439,6 +1439,7 @@ useEffect(() => {
       if (currentUser) {
         const userId = currentUser.uid;
         const authenticatedUser = usersData[userId];
+       setResetEmail(authenticatedUser.email || '');
         if (authenticatedUser) {
           setUsername(authenticatedUser.username || ''); // Set username state
           setEmail(authenticatedUser.email || ''); // Set email state
