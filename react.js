@@ -1433,6 +1433,17 @@ useEffect(() => {
           };
         });
       });
+
+      // Set username and email states for the authenticated user
+      const currentUser = firebase.auth().currentUser;
+      if (currentUser) {
+        const userId = currentUser.uid;
+        const authenticatedUser = usersData[userId];
+        if (authenticatedUser) {
+          setUsername(authenticatedUser.username || ''); // Set username state
+          setEmail(authenticatedUser.email || ''); // Set email state
+        }
+      }
     }
   };
 
@@ -1454,7 +1465,6 @@ useEffect(() => {
     messageRef.off();
   };
 }, []);
-
 
     let Showforgot = () =>{
         loginboxref.current.style.display="none";
