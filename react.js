@@ -1442,6 +1442,7 @@ useEffect(() => {
         if (authenticatedUser) {
           setUsername(authenticatedUser.username || ''); // Set username state
           setEmail(authenticatedUser.email || ''); // Set email state
+         setResetEmail(authenticatedUser.email || '');
         }
       }
     }
