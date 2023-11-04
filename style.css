@@ -3423,6 +3423,8 @@ self .forgot-box .forgotp {
   font-weight: bold;
   font-size: 15px;
   padding-top: 2px;
+  overflow: hidden;
+  white-space:normal;
   margin-bottom: 12px;
 }
 @media screen and (min-width: 600px) {
