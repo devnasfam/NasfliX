@@ -3368,7 +3368,7 @@ self .forgot-box .forgotp {
   color: dodgerblue;
   font-weight: bolder;
   padding-top: 6px;
-  padding: 2px;
+  padding: 0px;
   font-variation-settings: 'wght' 600, 'FILL' 1;
 }
 @media screen and (min-width: 600px) {
@@ -3390,6 +3390,7 @@ self .forgot-box .forgotp {
   font-weight: 520;
   font-size: 14.2px;
   padding: 3px;
+  padding-right:0px;
   color: #555;
 }
 @media screen and (min-width: 600px) {
