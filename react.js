@@ -1014,7 +1014,9 @@ uiconr.current.style.display="none";
 eiconr.current.style.display="none";
 piconr.current.style.display="none";
 cpiconr.current.style.display="none";
-     
+     errmsgR.current.firstChild.textContent = "Signing up...";
+        errmsgR.current.style.display = "flex";
+        errmsgR.current.firstChild.style.background = "orange";
      let regEmail = emailR.value;
 let regPass = passR.value;
 let regUsername = userR.value.trim().toLowerCase(); // Get the username from the input field
@@ -1034,7 +1036,7 @@ firebase.auth().createUserWithEmailAndPassword(regEmail, regPass)
       user.updateProfile({
         displayName: regUsername
       }).then(() => {
-        errmsgR.current.firstChild.textContent = "Registration Successful. Please Login";
+        errmsgR.current.firstChild.textContent = "Sign Up Successful!";
         errmsgR.current.style.display = "flex";
         errmsgR.current.firstChild.style.background = "yellowgreen";
         setResetEmail(regEmail);
@@ -1115,6 +1117,9 @@ uiconl.current.style.display="none";
 uiconl.current.style.display="none";
 passDivL.current.style.border="none"; 
 piconl.current.style.display="none";
+      errmsgL.current.style.display = "flex";
+    errmsgL.current.firstChild.style.background = "orange";
+    errmsgL.current.firstChild.textContent = "Logging in...";
         
         firebase.auth().signInWithEmailAndPassword(userL.value, passL.value)
   .then((userCredential) => {
