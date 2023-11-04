@@ -38,7 +38,7 @@ nav {
     padding: 10px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 970px) {
   nav {
     padding: 15px;
   }
@@ -71,7 +71,7 @@ nav .profile-icon {
     height: 60px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 970px) {
   nav .profile-icon {
     width: 70px;
     height: 70px;
@@ -108,7 +108,7 @@ nav .greet {
     font-size: 25px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 970px) {
   nav .greet {
     font-size: 30px;
   }
@@ -127,7 +127,7 @@ nav .greet::first-letter {
     font-size: 30px;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 970px) {
   nav .greet::first-letter {
     font-size: 33px;
   }
@@ -158,7 +158,7 @@ nav .greet::first-letter {
     padding: 100px 0;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 970px) {
   .home {
     padding: 115px 0;
   }
@@ -3287,7 +3287,7 @@ self .forgot-box .forgotp {
 }
 @media screen and (min-width: 970px) {
   .feedback-cont .feedback-body {
-    max-height: 405px;
+    max-height: 395px;
     padding-bottom:10px;
   }
 }
