@@ -3287,7 +3287,8 @@ self .forgot-box .forgotp {
 }
 @media screen and (min-width: 970px) {
   .feedback-cont .feedback-body {
-    max-height: 445px;
+    max-height: 415px;
+    padding-bottom:10px;
   }
 }
 @media screen and (min-width: 1200px) {
