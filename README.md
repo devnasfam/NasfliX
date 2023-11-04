@@ -2,6 +2,9 @@
 
 NasfliX is an innovative web application built to bring you the latest movies and a seamless viewing experience. This project serves as a platform to enhance and refine my skills in web development.
 
+## Live Site
+Explore the live site here: [NasfliX Movie App](https://nasflix.netlify.app/)
+
 ## Features
 
 - **User Authentication:**
@@ -51,5 +54,6 @@ Your contribution will be highly appreciated! 🚀
 
 Happy coding! 
 
+### Contact Information
+For inquiries, you can reach me at: [amajidahmad848@gmail.com](mailto:amajidahmad848@gmail.com)
 
-[amajidahmad848@gmail.com](amajidahmad848@gmail.com)
